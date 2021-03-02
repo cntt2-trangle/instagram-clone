@@ -1,0 +1,33 @@
+* {margin: auto; padding: 0;}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+}
+
+.navbar-brand {
+  width: 100px;
+  height: 30px;
+} 
+
+.nav-icons {
+  display: flex;
+  padding-left: 24px;
+  white-space: nowrap;
+}
+
+.nav-icons-item a {
+  color: rgb(54, 54, 54);
+  font-size: 2.0em;
+  margin-right: 15px;
+}
+
+.nav-icons-item img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
