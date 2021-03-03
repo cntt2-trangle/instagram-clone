@@ -197,6 +197,10 @@ a {text-decoration: none;}
   font-weight: 700;
 }
 
+.main .left-section .new-post .header-post .name:hover {
+  text-decoration: underline;
+}
+
 .main .left-section .new-post .header-post .more {
   width: 5%;
   color: var(--color-text3);
@@ -204,20 +208,9 @@ a {text-decoration: none;}
 
 .main .left-section .new-post .body-post {
   display: block;
-  /* position: absolute;
-  height: 767px; */
 }
 
 .main .left-section .new-post .body-post img {
-  /* height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 100%; */
   background-attachment: fixed;
   background-size: 100% 100%;
   overflow: hidden;
@@ -257,8 +250,14 @@ a {text-decoration: none;}
   width: 50%;
 }
 
-.right-section .profile a {
+.right-section .profile .username a {
   width: 15%;
+  color: var(--color-text5);
+  font-weight: bold;
+}
+
+.right-section .profile .username a:hover {
+  text-decoration: underline;
 }
 
 .right-section .suggestion {
@@ -325,6 +324,10 @@ a {text-decoration: none;}
   color: var(--color-text2);
 }
 
+.footer-post .content-post .status-post a:hover {
+  text-decoration: underline;
+}
+
 .footer-post .content-post .status-post span {
   color: var(--color-text5);
 }
@@ -335,6 +338,10 @@ a {text-decoration: none;}
 
 .footer-post .content-post .comments .comment span {
   color: var(--color-text5);
+}
+
+.footer-post .content-post .comments .comment a:hover {
+  text-decoration: underline;
 }
 
 .footer-post .content-post .comments .comment button {
