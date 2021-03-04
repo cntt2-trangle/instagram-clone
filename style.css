@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
 
 * {box-sizing: border-box; margin: auto; padding: 0;}
 
-body {font-family: "Nova Round", cursive;}
+body {font-family: 'JetBrains Mono', monospace;}
 
 button {cursor: pointer;}
 
@@ -15,8 +16,9 @@ a {text-decoration: none;}
 :root {
   --color-bg1: rgba(250,250,250,1);
   --color-bg2: #fff;
-  --color-border: rgb(204, 204, 204);
+  --color-border: rgb(216, 216, 216);
   --color-border2: rgb(172, 128, 108);
+  --color-border3: rgb(236, 236, 236);
   --color-text1: rgb(99, 95, 95);
   --color-text2: rgb(27, 27, 27);
   --color-text3: rgb(142,142,142,1);
@@ -369,7 +371,7 @@ a {text-decoration: none;}
   bottom: 0;
   padding: 8px 15px;
   height: 55px;
-  border-top: 1px solid var(--color-border);
+  border-top: 1px solid var(--color-border3);
 }
 
 .footer-post .footer-post-bottom button {
